@@ -15,12 +15,10 @@ public class ProductPage extends BasePage{
     By productSizes = new By.ByCssSelector("div.product__size.-productCart.radio-box");
 
 
-
-
-
     public ProductPage(WebDriver driver) {
         super(driver);
     }
+
 
     public String[] selectProduct(){
         WebElement element1 = getDiscountedProducts(priceLocator);
@@ -43,6 +41,8 @@ public class ProductPage extends BasePage{
         return controlButtonEnabled(locator,listElements);
     }
 
-
+    public boolean isOnProductPage() {
+        return isDisplayed(discountedProductLocator);
+    }
 
 }

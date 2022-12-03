@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>3.141.59</selenium.version>
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
+        <opencsv.version>5.7.1</opencsv.version>
     </properties>
 
     <dependencies>
@@ -44,5 +45,10 @@
             <version>1.2.17</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>${opencsv.version}</version>
+        </dependency>
     </dependencies>
 </project>

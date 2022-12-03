@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d107f54-b437-4d74-a844-be18a7d7ebc6" name="Changes" comment="Commit I | Finished half">
+    <list default="true" id="2d107f54-b437-4d74-a844-be18a7d7ebc6" name="Changes" comment="R">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logs/TestResultLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Add_Product_To_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Add_Product_To_Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;android.project.structure&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EXCALIBUR-GAMING\Desktop\testinium_project\testinium_project\src\test\java" />
       <recent name="C:\Users\EXCALIBUR-GAMING\Desktop\testinium_project\testinium_project" />
       <recent name="C:\Users\EXCALIBUR-GAMING\Desktop\testinium_project\testinium_project\src" />
       <recent name="C:\Users\EXCALIBUR-GAMING\Desktop\testinium_project\testinium_project\drivers" />
@@ -75,6 +89,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_Add_Product_To_Cart" />
       <option name="METHOD_NAME" value="acceptCookies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Add_Product_To_Cart.fillMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testinium_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Add_Product_To_Cart" />
+      <option name="METHOD_NAME" value="fillMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,6 +135,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Test_Add_Product_To_Cart.fillMail" />
       <item itemvalue="JUnit.Test_Add_Product_To_Cart" />
       <item itemvalue="JUnit.Test_Add_Product_To_Cart.acceptCookies" />
       <item itemvalue="JUnit.Test_Add_Product_To_Cart.searchProduct" />
@@ -119,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test_Add_Product_To_Cart" />
+        <item itemvalue="JUnit.Test_Add_Product_To_Cart.fillMail" />
         <item itemvalue="JUnit.Test_Add_Product_To_Cart.searchProduct" />
         <item itemvalue="JUnit.Test_Add_Product_To_Cart.acceptCookies" />
         <item itemvalue="JUnit.Test_Add_Product_To_Cart.scrollToBottom" />
-        <item itemvalue="JUnit.Test_Add_Product_To_Cart.searchProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +169,9 @@
       <workItem from="1669902193661" duration="561000" />
       <workItem from="1669902960661" duration="752000" />
       <workItem from="1669903721179" duration="26548000" />
-      <workItem from="1669980237909" duration="30147000" />
+      <workItem from="1669980237909" duration="43770000" />
+      <workItem from="1670038138136" duration="318000" />
+      <workItem from="1670038575901" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Commit I | Search word">
       <created>1669910946707</created>
@@ -188,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670020465371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Almost ready">
+      <created>1670023709393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670023709393</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +242,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit I | Search word" />
     <MESSAGE value="Commit I | Finished half" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit I | Finished half" />
+    <MESSAGE value="Almost ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost ready" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
